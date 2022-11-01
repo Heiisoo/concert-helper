@@ -6,7 +6,7 @@
   background: whitesmoke;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 
   & img {
     width: 140px;
@@ -17,7 +17,9 @@
     color: black;
     text-align: center;
   }
-}
 
-.content {
+  & span {
+    font-size: 12px;
+    font-style: italic;
+  }
 }
